@@ -6,3 +6,45 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Navbar with logo pic */
+
+.body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 200px;
+}
+
+.navbar ul {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  font-size: 20px;
+  color: black;
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+/* picture with text inside */
+
+.picture-box {
+  width: 0 auto;
+  height: auto;
+}
+
+.picture-box img {
+  max-width: 100%;
+}
