@@ -9,10 +9,6 @@ White: #FFF
 
 /* Navbar with logo pic */
 
-.body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .nav {
   position: fixed;
   width: 100%;
@@ -22,13 +18,15 @@ White: #FFF
 }
 
 .navbar img {
-  width: 200px;
+  width: 150px;
+  padding-left: 15px;
 }
 
 .navbar ul {
   float: right;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 5px;
 }
 
 .navbar ul li {
@@ -41,10 +39,150 @@ White: #FFF
 /* picture with text inside */
 
 .picture-box {
-  width: 0 auto;
-  height: auto;
+  position: relative;
+  display: inline-block;
 }
 
 .picture-box img {
-  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.headerMusic {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px, 10px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.picture-box p {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 100px, 200px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Middle part of the webpage: */
+
+.what-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* color for each header*/
+
+.flex-1 h2 {
+  color: #00b172;
+}
+
+.flex-2 h2 {
+  color: #00b172;
+}
+
+.flex-3 h2 {
+  color: #00b172;
+}
+
+.whatSpotify {
+  padding-top: 30px;
+}
+
+/* setting up flex for every column */
+
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.flex-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.flex-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* formatting each text */
+
+.flex-1 p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.flex-2 p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.flex-3 p {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* footer: */
+
+.green-box {
+  color: white;
+  height: 700px;
+  width: 100%;
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-side-end {
+  width: 200px;
+}
+
+.left-side-end h3 {
+  padding-top: 40px;
+}
+
+.left-side-end h2 {
+  padding-bottom: 10px;
+}
+
+/* editting pictures: */
+
+.flex-1 img {
+  width: 50px;
+}
+
+.flex-2 img {
+  width: 50px;
+}
+
+.flex-3 img {
+  width: 50px;
+}
+
+.spoty-Icon img {
+  width: 80px;
+}
+
+.kanyepic img {
+  width: 220px;
 }
